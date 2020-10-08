@@ -35,6 +35,15 @@ namespace Process_Data2ODOO
                 c.SetVille(c.GetVille().Replace("-", " "));
                 c.SetVille(c.GetVille().Trim(' '));
                 c.SetVille(c.GetVille().ToUpper());
+
+                // Nettoyage champ Tel
+                c.SetTel(c.GetTel().Replace(" ", "."));
+                c.SetTel(c.GetTel().Replace("-", "."));
+                c.SetTel(c.GetTel().Trim(' '));
+                // Nettoyage champ Fax
+                c.SetFax(c.GetFax().Replace(" ", "."));
+                c.SetFax(c.GetFax().Replace("-", "."));
+                c.SetFax(c.GetFax().Trim(' '));
             }
             return lesClientsAFormater;
         }

@@ -10,3 +10,9 @@ C:\Users\sophie\Desktop\Annee2020-2021\PPE SIO2\Contexte GEDIMAT - INTERWAY\Data
 C:\Users\sophie\Desktop\Annee2020-2021\PPE SIO2\Contexte GEDIMAT - INTERWAY\Data2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.csproj.CoreCompileInputs.cache
 C:\Users\sophie\Desktop\Annee2020-2021\PPE SIO2\Contexte GEDIMAT - INTERWAY\Data2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.dll
 C:\Users\sophie\Desktop\Annee2020-2021\PPE SIO2\Contexte GEDIMAT - INTERWAY\Data2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.pdb
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOO\bin\Debug\Model_Data2ODOO.dll
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOO\bin\Debug\Model_Data2ODOO.pdb
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.csprojAssemblyReference.cache
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.csproj.CoreCompileInputs.cache
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.dll
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.pdb
