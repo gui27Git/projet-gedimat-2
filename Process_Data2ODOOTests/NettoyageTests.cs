@@ -6,11 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Process_Data2ODOO.Tests
 {
     [TestClass()]
     public class NettoyageTests
     {
+        /// <summary>
+        /// test de la classe PresenceDeXTest
+        /// </summary>
         [TestMethod()]
         public void PresenceDeXTest()
         {
@@ -24,6 +28,7 @@ namespace Process_Data2ODOO.Tests
             Assert.AreEqual(true, Nettoyage.RepetitionDeX(ch4));
             string ch5 = "XXXXXXXXXXXX";
             Assert.AreEqual(true, Nettoyage.RepetitionDeX(ch5));
+            
         }
     }
 }

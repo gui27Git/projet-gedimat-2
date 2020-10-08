@@ -11,3 +11,16 @@ C:\Users\sophie\Desktop\Annee2020-2021\PPE SIO2\Contexte GEDIMAT - INTERWAY\Data
 C:\Users\sophie\Desktop\Annee2020-2021\PPE SIO2\Contexte GEDIMAT - INTERWAY\Data2ODOO\Process_Data2ODOOTests\obj\Debug\Process_Data2ODOOTests.csproj.CopyComplete
 C:\Users\sophie\Desktop\Annee2020-2021\PPE SIO2\Contexte GEDIMAT - INTERWAY\Data2ODOO\Process_Data2ODOOTests\obj\Debug\Process_Data2ODOOTests.dll
 C:\Users\sophie\Desktop\Annee2020-2021\PPE SIO2\Contexte GEDIMAT - INTERWAY\Data2ODOO\Process_Data2ODOOTests\obj\Debug\Process_Data2ODOOTests.pdb
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\bin\Debug\Process_Data2ODOOTests.dll
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\bin\Debug\Process_Data2ODOOTests.pdb
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\bin\Debug\Process_Data2ODOO.dll
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\bin\Debug\Model_Data2ODOO.dll
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\bin\Debug\Process_Data2ODOO.pdb
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\bin\Debug\Model_Data2ODOO.pdb
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\obj\Debug\Process_Data2ODOOTests.csprojAssemblyReference.cache
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\obj\Debug\Process_Data2ODOOTests.csproj.CoreCompileInputs.cache
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\obj\Debug\Process_Data2ODOOTests.csproj.CopyComplete
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\obj\Debug\Process_Data2ODOOTests.dll
+D:\2 année\PPE\2020PPE_DATA2ODOO\Process_Data2ODOOTests\obj\Debug\Process_Data2ODOOTests.pdb

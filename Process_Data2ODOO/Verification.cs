@@ -9,6 +9,12 @@ namespace Process_Data2ODOO
 {
     public class Verification
     {
+        /// <summary>
+        /// Constructeur de la classe verifier
+        /// </summary>
+        /// <param name="lesClientsAVerifier"></param>
+        /// <param name="lesClientsValides"></param>
+        /// <param name="lesAnomalies"></param>
         public static void Verifier(List<Client> lesClientsAVerifier, out List<Client> lesClientsValides, out Dictionary<string, List<Client>> lesAnomalies)
         {
             lesClientsValides = new List<Client>();
@@ -31,7 +37,11 @@ namespace Process_Data2ODOO
                 }
             }
         }
-
+        /// <summary>
+        /// retourne true si le champ est vide sinon false 
+        /// </summary>
+        /// <param name="leChamp"></param>
+        /// <returns>champ vide ou plein</returns>
         public static bool ChampVide(string leChamp)
         {
             return (leChamp.Length == 0) ? true : false;

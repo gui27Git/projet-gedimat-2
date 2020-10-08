@@ -9,6 +9,11 @@ namespace Process_Data2ODOO
 {
     public class LectureSource
     {
+        /// <summary>
+        /// Charge la liste des client la liste de client dans le fichier et retourne une liste de client
+        /// </summary>
+        /// <param name="cheminFichier"></param>
+        /// <returns>liste de client</returns>
         public static List<Client> ChargerListClient(string cheminFichier)
         {
             string ligne;

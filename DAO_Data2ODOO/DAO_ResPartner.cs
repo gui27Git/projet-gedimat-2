@@ -32,7 +32,7 @@ namespace DAO_Data2ODOO
                 cmdInsert.Connection = this.connexion;
               
                 cmdInsert.CommandText = "INSERT INTO res_partner(display_name, name, city, street, zip, country_id, phone, email, notify_email)" +
-                 "VALUES (@display_name, @name, @street, @city, @zip, @country_id, @phone, @email, @email)";
+                 "VALUES (@display_name, @name,@city,@street,@zip, @country_id, @phone, @email, @email)";
                 cmdInsert.Parameters.AddWithValue("@display_name", unClient.GetRaisonSociale());
                 cmdInsert.Parameters.AddWithValue("@name", unClient.GetRaisonSociale());
                 cmdInsert.Parameters.AddWithValue("@street", unClient.GetRue());
