@@ -31,7 +31,8 @@ namespace Process_Data2ODOO
                 string tel = donneesClient[5];
                 string fax = donneesClient[6];
                 string mail = donneesClient[7];
-                Client c = new Client(code, raisonSociale, rue, cp, ville, tel, fax, mail);
+                string active = donneesClient[8];
+                Client c = new Client(code, raisonSociale, rue, cp, ville, tel, fax, mail,active);
                 lesClients.Add(c);
             }
             file.Close();

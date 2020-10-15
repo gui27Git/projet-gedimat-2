@@ -38,12 +38,12 @@ namespace DAO_Data2ODOO
                 cmdInsert.Parameters.AddWithValue("@street", unClient.GetRue());
                 cmdInsert.Parameters.AddWithValue("@city", unClient.GetVille());
                 cmdInsert.Parameters.AddWithValue("@zip", unClient.GetCodePostal());
-                cmdInsert.Parameters.AddWithValue("@country_id", 75);
+                cmdInsert.Parameters.AddWithValue("@country_id", 76);
                 cmdInsert.Parameters.AddWithValue("@phone", unClient.GetTel());
                 cmdInsert.Parameters.AddWithValue("@email", unClient.GetMail());
                 cmdInsert.Parameters.AddWithValue("@notify_email", unClient.GetMail());
                 cmdInsert.Parameters.AddWithValue("@customer", true);
-                cmdInsert.Parameters.AddWithValue("@active", true);
+                cmdInsert.Parameters.AddWithValue("@active", unClient.GetActive());
                 int res = cmdInsert.ExecuteNonQuery();
             }
             catch (Exception e)

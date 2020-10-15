@@ -19,7 +19,8 @@ namespace Model_Data2ODOO
         private string villeAdresse;
         private string numTel;
         private string numFax;
-        private string mail;    
+        private string mail;
+        private string active;
 
         /// <summary>
         /// Constructeur de la classe Client
@@ -33,7 +34,7 @@ namespace Model_Data2ODOO
         /// <param name="unNumFax"></param>
         /// <param name="uneAdrMail"></param>
         /// <param name=""></param>
-        public Client(string unCode, string uneRaisonSociale, string uneRue, string unCodePostal, string uneVille, string unNumTel, string unNumFax, string uneAdrMail /*string unActif, string unReglement*/)
+        public Client(string unCode, string uneRaisonSociale, string uneRue, string unCodePostal, string uneVille, string unNumTel, string unNumFax, string uneAdrMail, string unActif /*string unReglement*/)
         {
             this.code = unCode;
             this.raisonSociale = uneRaisonSociale;
@@ -43,6 +44,7 @@ namespace Model_Data2ODOO
             this.numTel = unNumTel;
             this.numFax = unNumFax;
             this.mail = uneAdrMail;
+            this.active = unActif;
         }
 
         #region Accesseurs (Getters/Setters)
@@ -117,6 +119,17 @@ namespace Model_Data2ODOO
         {
             return this.mail;
         }
+        /// <summary>
+        /// retourne l'etat du client
+        /// </summary>
+        /// <returns></returns>
+        public Boolean GetActive()
+        {
+            if (this.active == "Oui")
+                return true;
+            else
+                return false;
+        }
        
         /// <summary>
         /// Reécrit le code du client
@@ -181,6 +194,14 @@ namespace Model_Data2ODOO
         public void SetMail(string unMail)
         {
             this.mail = unMail;
+        }
+        /// <summary>
+        /// réecrit l'etat du client
+        /// </summary>
+        /// <param name="unActive"></param>
+        public void SetActive(string unActive)
+        {
+            this.active = unActive;
         }
         #endregion
     }
