@@ -16,3 +16,9 @@ D:\2 année\PPE\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.cspr
 D:\2 année\PPE\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.csproj.CoreCompileInputs.cache
 D:\2 année\PPE\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.dll
 D:\2 année\PPE\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.pdb
+C:\Users\levasseur\Desktop\Nouveau dossier\2020PPE_DATA2ODOO\Model_Data2ODOO\bin\Debug\Model_Data2ODOO.dll
+C:\Users\levasseur\Desktop\Nouveau dossier\2020PPE_DATA2ODOO\Model_Data2ODOO\bin\Debug\Model_Data2ODOO.pdb
+C:\Users\levasseur\Desktop\Nouveau dossier\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.csprojAssemblyReference.cache
+C:\Users\levasseur\Desktop\Nouveau dossier\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.csproj.CoreCompileInputs.cache
+C:\Users\levasseur\Desktop\Nouveau dossier\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.dll
+C:\Users\levasseur\Desktop\Nouveau dossier\2020PPE_DATA2ODOO\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.pdb

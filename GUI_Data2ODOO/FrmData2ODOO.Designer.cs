@@ -48,6 +48,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.erreur_txt_serveur = new System.Windows.Forms.TextBox();
+            this.erreur_txt_nomDD = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.img_logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -228,12 +230,42 @@
             this.label2.TabIndex = 24;
             this.label2.Text = "DATA2ODOO";
             // 
+            // erreur_txt_serveur
+            // 
+            this.erreur_txt_serveur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.erreur_txt_serveur.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.erreur_txt_serveur.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.erreur_txt_serveur.ForeColor = System.Drawing.Color.Red;
+            this.erreur_txt_serveur.Location = new System.Drawing.Point(48, 399);
+            this.erreur_txt_serveur.Name = "erreur_txt_serveur";
+            this.erreur_txt_serveur.ReadOnly = true;
+            this.erreur_txt_serveur.Size = new System.Drawing.Size(230, 16);
+            this.erreur_txt_serveur.TabIndex = 25;
+            this.erreur_txt_serveur.Text = "Veuillez remplir ce champ";
+            this.erreur_txt_serveur.Visible = false;
+            // 
+            // erreur_txt_nomDD
+            // 
+            this.erreur_txt_nomDD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.erreur_txt_nomDD.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.erreur_txt_nomDD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.erreur_txt_nomDD.ForeColor = System.Drawing.Color.Red;
+            this.erreur_txt_nomDD.Location = new System.Drawing.Point(41, 495);
+            this.erreur_txt_nomDD.Name = "erreur_txt_nomDD";
+            this.erreur_txt_nomDD.ReadOnly = true;
+            this.erreur_txt_nomDD.Size = new System.Drawing.Size(230, 16);
+            this.erreur_txt_nomDD.TabIndex = 26;
+            this.erreur_txt_nomDD.Text = "Veuillez remplir ce champ";
+            this.erreur_txt_nomDD.Visible = false;
+            // 
             // FrmData2ODOO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.ClientSize = new System.Drawing.Size(432, 636);
+            this.Controls.Add(this.erreur_txt_nomDD);
+            this.Controls.Add(this.erreur_txt_serveur);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_transferer);
             this.Controls.Add(this.btn_min);
@@ -277,6 +309,8 @@
         private System.Windows.Forms.TextBox erreur_txt_source;
         private System.Windows.Forms.Label btn_min;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox erreur_txt_serveur;
+        private System.Windows.Forms.TextBox erreur_txt_nomDD;
     }
 }
 
