@@ -15,7 +15,7 @@ namespace DAO_Data2ODOO.Tests
         [TestMethod()]
         public void SeConnecterTest()
         {
-            NpgsqlConnection connexion = Connexion.SeConnecter("localhost", "ODOO_EllaSIO");
+            NpgsqlConnection connexion = Connexion.SeConnecter("localhost", "gedimat_odoo");
             connexion.Open();
             Assert.AreEqual("Open", connexion.State.ToString());
         }

@@ -1,0 +1,11 @@
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\bin\Debug\Model_Data2ODOOTests.dll
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\bin\Debug\Model_Data2ODOOTests.pdb
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\bin\Debug\Model_Data2ODOO.dll
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\bin\Debug\Model_Data2ODOO.pdb
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\obj\Debug\Model_Data2ODOOTests.csprojAssemblyReference.cache
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\obj\Debug\Model_Data2ODOOTests.csproj.CoreCompileInputs.cache
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\obj\Debug\Model_Data2ODOOTests.csproj.CopyComplete
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\obj\Debug\Model_Data2ODOOTests.dll
+D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\obj\Debug\Model_Data2ODOOTests.pdb

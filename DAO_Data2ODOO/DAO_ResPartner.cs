@@ -31,17 +31,21 @@ namespace DAO_Data2ODOO
                 NpgsqlCommand cmdInsert = new NpgsqlCommand();
                 cmdInsert.Connection = this.connexion;
               
-                cmdInsert.CommandText = "INSERT INTO res_partner(display_name, name, city, street, zip, country_id, phone, email, notify_email)" +
-                 "VALUES (@display_name, @name, @street, @city, @zip, @country_id, @phone, @email, @email)";
+                cmdInsert.CommandText = "INSERT INTO res_partner(display_name, name, city, street, zip, country_id, phone, mobile, fax, email, notify_email, customer, active)" +
+                 "VALUES (@display_name, @name, @city, @street, @zip, @country_id, @phone, @mobile, @fax, @email, @email, @customer, @active)";
                 cmdInsert.Parameters.AddWithValue("@display_name", unClient.GetRaisonSociale());
                 cmdInsert.Parameters.AddWithValue("@name", unClient.GetRaisonSociale());
                 cmdInsert.Parameters.AddWithValue("@street", unClient.GetRue());
                 cmdInsert.Parameters.AddWithValue("@city", unClient.GetVille());
                 cmdInsert.Parameters.AddWithValue("@zip", unClient.GetCodePostal());
-                cmdInsert.Parameters.AddWithValue("@country_id", 75);
-                cmdInsert.Parameters.AddWithValue("@phone", unClient.GetTel());
+                cmdInsert.Parameters.AddWithValue("@country_id", 76);
+                cmdInsert.Parameters.AddWithValue("@phone", unClient.GetFix());
+                cmdInsert.Parameters.AddWithValue("@mobile", unClient.GetMobile());
+                cmdInsert.Parameters.AddWithValue("@fax", unClient.GetFax());
                 cmdInsert.Parameters.AddWithValue("@email", unClient.GetMail());
                 cmdInsert.Parameters.AddWithValue("@notify_email", unClient.GetMail());
+                cmdInsert.Parameters.AddWithValue("@customer", true);
+                cmdInsert.Parameters.AddWithValue("@active", true);
                 int res = cmdInsert.ExecuteNonQuery();
             }
             catch (Exception e)

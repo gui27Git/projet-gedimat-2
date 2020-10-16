@@ -91,13 +91,31 @@ namespace Model_Data2ODOO
             return this.villeAdresse;
         }
 
+        public string GetTel()
+        {
+            return this.numTel;
+        }
+
         /// <summary>
         /// 
         /// </summary>
         /// <returns></returns>
-        public string GetTel()
+        public string GetFix()
         {
-            return this.numTel;
+            string fix = this.numTel;
+            if (fix.Substring(0, 2) == "01" || fix.Substring(0, 2) == "02" || fix.Substring(0, 2) == "03" || fix.Substring(0, 2) == "04" || fix.Substring(0, 2) == "05" || fix.Substring(0, 2) == "08" || fix.Substring(0, 2) == "09")
+                return this.numTel;
+            else
+                return "";
+        }
+
+        public string GetMobile()
+        {
+            string mobile = this.numTel;
+            if (mobile.Substring(0, 2) == "06" || mobile.Substring(0, 2) == "07")
+                return this.numTel;
+            else
+                return "";
         }
 
         /// <summary>
