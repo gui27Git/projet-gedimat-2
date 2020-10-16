@@ -11,6 +11,9 @@ namespace Process_Data2ODOO.Tests
     [TestClass()]
     public class VerificationTests
     {
+        /// <summary>
+        /// test de la classe ChampVideTest
+        /// </summary>
         [TestMethod()]
         public void ChampVideTest()
         {

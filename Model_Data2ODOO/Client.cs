@@ -19,7 +19,8 @@ namespace Model_Data2ODOO
         private string villeAdresse;
         private string numTel;
         private string numFax;
-        private string mail;    
+        private string mail;
+        private string active;
 
         /// <summary>
         /// Constructeur de la classe Client
@@ -33,7 +34,7 @@ namespace Model_Data2ODOO
         /// <param name="unNumFax"></param>
         /// <param name="uneAdrMail"></param>
         /// <param name=""></param>
-        public Client(string unCode, string uneRaisonSociale, string uneRue, string unCodePostal, string uneVille, string unNumTel, string unNumFax, string uneAdrMail /*string unActif, string unReglement*/)
+        public Client(string unCode, string uneRaisonSociale, string uneRue, string unCodePostal, string uneVille, string unNumTel, string unNumFax, string uneAdrMail, string unActif /*string unReglement*/)
         {
             this.code = unCode;
             this.raisonSociale = uneRaisonSociale;
@@ -43,12 +44,13 @@ namespace Model_Data2ODOO
             this.numTel = unNumTel;
             this.numFax = unNumFax;
             this.mail = uneAdrMail;
+            this.active = unActif;
         }
 
         #region Accesseurs (Getters/Setters)
 
         // <summary>
-        /// 
+        /// Retourne le code du client
         /// </summary>
         /// <returns></returns>
         public string GetCode()
@@ -56,7 +58,7 @@ namespace Model_Data2ODOO
             return this.code;
         }
         /// <summary>
-        /// 
+        /// retourne la raison sociale du client
         /// </summary>
         /// <returns></returns>
         public string GetRaisonSociale()
@@ -65,7 +67,7 @@ namespace Model_Data2ODOO
         }
 
         /// <summary>
-        /// 
+        /// retoune la rue du client
         /// </summary>
         /// <returns></returns>
         public string GetRue()
@@ -74,16 +76,16 @@ namespace Model_Data2ODOO
         }
 
         /// <summary>
-        /// 
+        /// retourne le code postal du client
         /// </summary>
         /// <returns></returns>
         public string GetCodePostal()
         {
-            return this.cpAdresse;
+            return "0"+this.cpAdresse;
         }
 
         /// <summary>
-        /// 
+        /// retourne la ville du client
         /// </summary>
         /// <returns></returns>
         public string GetVille()
@@ -91,13 +93,17 @@ namespace Model_Data2ODOO
             return this.villeAdresse;
         }
 
+        /// <summary>
+        /// retourne le telephone du client
+        /// </summary>
+        /// <returns></returns>
         public string GetTel()
         {
             return this.numTel;
         }
 
         /// <summary>
-        /// 
+        /// retourne le telephone fix du client
         /// </summary>
         /// <returns></returns>
         public string GetFix()
@@ -109,6 +115,10 @@ namespace Model_Data2ODOO
                 return "";
         }
 
+        /// <summary>
+        /// retourne le telephone mobile du client
+        /// </summary>
+        /// <returns></returns>
         public string GetMobile()
         {
             string mobile = this.numTel;
@@ -119,7 +129,7 @@ namespace Model_Data2ODOO
         }
 
         /// <summary>
-        /// 
+        /// retourne le fax du client
         /// </summary>
         /// <returns></returns>
         public string GetFax()
@@ -128,16 +138,27 @@ namespace Model_Data2ODOO
         }
 
         /// <summary>
-        /// 
+        /// retourne le mail du client
         /// </summary>
         /// <returns></returns>
         public string GetMail()
         {
             return this.mail;
         }
+        /// <summary>
+        /// retourne l'etat du client
+        /// </summary>
+        /// <returns></returns>
+        public Boolean GetActive()
+        {
+            if (this.active == "Oui")
+                return true;
+            else
+                return false;
+        }
        
         /// <summary>
-        /// 
+        /// Reécrit le code du client
         /// </summary>
         /// <param name="unCode"></param>
         public void SetCode(string unCode)
@@ -145,7 +166,7 @@ namespace Model_Data2ODOO
             this.code = unCode;
         }
         /// <summary>
-        /// 
+        /// réecrit la raison sociale du client
         /// </summary>
         /// <param name="uneRaisonSociale"></param>
         public void SetRaisonSociale(string uneRaisonSociale)
@@ -153,7 +174,7 @@ namespace Model_Data2ODOO
             this.raisonSociale = uneRaisonSociale;
         }
         /// <summary>
-        /// 
+        /// réecrit la rue du client
         /// </summary>
         /// <param name="uneRue"></param>
         public void SetRue(string uneRue)
@@ -161,7 +182,7 @@ namespace Model_Data2ODOO
             this.rueAdresse = uneRue;
         }
         /// <summary>
-        /// 
+        /// réecrit le code postal du client
         /// </summary>
         /// <param name="unCodePostal"></param>
         public void SetCodePostal(string unCodePostal)
@@ -169,7 +190,7 @@ namespace Model_Data2ODOO
             this.cpAdresse = unCodePostal;
         }
         /// <summary>
-        /// 
+        /// réecrit la ville du client
         /// </summary>
         /// <param name="uneVille"></param>
         public void SetVille(string uneVille)
@@ -177,7 +198,7 @@ namespace Model_Data2ODOO
             this.villeAdresse = uneVille;
         }
         /// <summary>
-        /// 
+        /// réecrit le telephone du client
         /// </summary>
         /// <param name="unNumTel"></param>
         public void SetTel(string unNumTel)
@@ -185,7 +206,7 @@ namespace Model_Data2ODOO
             this.numTel = unNumTel;
         }
         /// <summary>
-        /// 
+        /// réecrit le fax du client
         /// </summary>
         /// <param name="unNumFax"></param>
         public void SetFax(string unNumFax)
@@ -193,12 +214,20 @@ namespace Model_Data2ODOO
             this.numFax = unNumFax;
         }
         /// <summary>
-        /// 
+        /// réecrit le mail du client
         /// </summary>
         /// <param name="unMail"></param>
         public void SetMail(string unMail)
         {
             this.mail = unMail;
+        }
+        /// <summary>
+        /// réecrit l'etat du client
+        /// </summary>
+        /// <param name="unActive"></param>
+        public void SetActive(string unActive)
+        {
+            this.active = unActive;
         }
         #endregion
     }

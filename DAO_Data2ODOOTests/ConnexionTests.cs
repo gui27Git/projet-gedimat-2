@@ -9,6 +9,9 @@ using Npgsql;
 
 namespace DAO_Data2ODOO.Tests
 {
+    /// <summary>
+    /// Test de la classe SeConnecter
+    /// </summary>
     [TestClass()]
     public class ConnexionTests
     {

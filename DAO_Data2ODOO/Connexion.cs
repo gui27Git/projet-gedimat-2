@@ -18,7 +18,9 @@ namespace DAO_Data2ODOO
         public static NpgsqlConnection SeConnecter(string unServeur, string unNomBDD)
         {
             NpgsqlConnection connex = null;
+
             string chaineConnex = "Server=" + unServeur + "; Port=5433; User Id=openpg; Password=openpgpwd; Database=" + unNomBDD + ";";
+
             try
             {
                 connex = new NpgsqlConnection(chaineConnex);

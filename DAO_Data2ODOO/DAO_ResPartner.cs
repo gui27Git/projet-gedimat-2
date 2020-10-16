@@ -33,6 +33,7 @@ namespace DAO_Data2ODOO
               
                 cmdInsert.CommandText = "INSERT INTO res_partner(display_name, name, city, street, zip, country_id, phone, mobile, fax, email, notify_email, customer, active)" +
                  "VALUES (@display_name, @name, @city, @street, @zip, @country_id, @phone, @mobile, @fax, @email, @email, @customer, @active)";
+
                 cmdInsert.Parameters.AddWithValue("@display_name", unClient.GetRaisonSociale());
                 cmdInsert.Parameters.AddWithValue("@name", unClient.GetRaisonSociale());
                 cmdInsert.Parameters.AddWithValue("@street", unClient.GetRue());
@@ -45,7 +46,8 @@ namespace DAO_Data2ODOO
                 cmdInsert.Parameters.AddWithValue("@email", unClient.GetMail());
                 cmdInsert.Parameters.AddWithValue("@notify_email", unClient.GetMail());
                 cmdInsert.Parameters.AddWithValue("@customer", true);
-                cmdInsert.Parameters.AddWithValue("@active", true);
+                cmdInsert.Parameters.AddWithValue("@active", unClient.GetActive());
+
                 int res = cmdInsert.ExecuteNonQuery();
             }
             catch (Exception e)
