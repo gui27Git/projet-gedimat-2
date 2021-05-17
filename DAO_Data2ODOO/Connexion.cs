@@ -19,7 +19,7 @@ namespace DAO_Data2ODOO
         {
             NpgsqlConnection connex = null;
 
-            string chaineConnex = "Server=" + unServeur + "; Port=5433; User Id=openpg; Password=openpgpwd; Database=" + unNomBDD + ";";
+            string chaineConnex = "Server=" + unServeur + "; Port=5433; User Id=postgres; Password=root; Database=" + unNomBDD + ";";
 
             try
             {

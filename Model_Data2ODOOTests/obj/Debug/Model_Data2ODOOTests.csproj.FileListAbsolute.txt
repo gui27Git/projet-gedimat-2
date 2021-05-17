@@ -9,3 +9,5 @@ D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2O
 D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\obj\Debug\Model_Data2ODOOTests.csproj.CopyComplete
 D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\obj\Debug\Model_Data2ODOOTests.dll
 D:\BTS\PPE_SLAM\Projet_DATA2ODOO\projet_gedimat_2\2020PPE_DATA2ODOO\Model_Data2ODOOTests\obj\Debug\Model_Data2ODOOTests.pdb
+C:\Users\WIN10\Desktop\projet-gedimat-2\Model_Data2ODOOTests\obj\Debug\Model_Data2ODOOTests.csprojAssemblyReference.cache
+C:\Users\WIN10\Desktop\projet-gedimat-2\Model_Data2ODOOTests\obj\Debug\Model_Data2ODOOTests.csproj.CoreCompileInputs.cache

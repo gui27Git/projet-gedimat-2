@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net.Mail;
 using Process_Data2ODOO;
 using Model_Data2ODOO;
 using DAO_Data2ODOO;
@@ -182,9 +183,16 @@ namespace GUI_Data2ODOO
                             int nbClientsInseres = lesClientsValides.Count;
                             int nbClientsSansRS = lesAnomalies["RaisonSocialeNR"].Count;
                             int nbAnomalies = nbClientsSansRS;
-                            string msg = nbClientsInseres.ToString() + " clients valides insérés";
+                            string msg = lesClients.Count+" client \n"+lesCientsFormates.Count+" clients formatté \n"+lesClientsNettoyes.Count+" client nettoyé \n"+nbClientsSansRS+" client sans raison sociale \n"+  nbClientsInseres.ToString() + " clients valides insérés";
                             msg += "\n" + nbAnomalies.ToString() + " anomalies";
                             MessageBox.Show(msg, "RAPPORT DATA2ODOO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            
+                            MailMessage message = new MailMessage("gedimat@odoo.to", boxMail.Text);
+                            message.Subject = "rapport import odoo";
+                            message.Body = msg;
+                            SmtpClient client = new SmtpClient();
+                            client.UseDefaultCredentials = true;
+                            client.Send(message);
                         }
                         catch (Exception ex)
                         {
@@ -227,6 +235,14 @@ namespace GUI_Data2ODOO
                     }
 
                 }
+            }
+        }
+
+        private void boxMail_Leave(object sender, EventArgs e)
+        {
+            if(boxMail.Text=="Adresse mail")
+            {
+                textMail.ForeColor = Color.DimGray;
             }
         }
     }

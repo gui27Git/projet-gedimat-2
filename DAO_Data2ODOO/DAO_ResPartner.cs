@@ -31,7 +31,7 @@ namespace DAO_Data2ODOO
                 NpgsqlCommand cmdInsert = new NpgsqlCommand();
                 cmdInsert.Connection = this.connexion;
               
-                cmdInsert.CommandText = "INSERT INTO res_partner(display_name, name, city, street, zip, country_id, phone, mobile, fax, email, notify_email, customer, active)" +
+                cmdInsert.CommandText = "INSERT INTO res_partner1(display_name, name, city, street, zip, country_id, phone, mobile, fax, email, notify_email, customer, active)" +
                  "VALUES (@display_name, @name, @city, @street, @zip, @country_id, @phone, @mobile, @fax, @email, @email, @customer, @active)";
 
                 cmdInsert.Parameters.AddWithValue("@display_name", unClient.GetRaisonSociale());
