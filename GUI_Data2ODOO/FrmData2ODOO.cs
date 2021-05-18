@@ -187,12 +187,6 @@ namespace GUI_Data2ODOO
                             msg += "\n" + nbAnomalies.ToString() + " anomalies";
                             MessageBox.Show(msg, "RAPPORT DATA2ODOO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             
-                            MailMessage message = new MailMessage("gedimat@odoo.to", boxMail.Text);
-                            message.Subject = "rapport import odoo";
-                            message.Body = msg;
-                            SmtpClient client = new SmtpClient();
-                            client.UseDefaultCredentials = true;
-                            client.Send(message);
                         }
                         catch (Exception ex)
                         {
@@ -235,14 +229,6 @@ namespace GUI_Data2ODOO
                     }
 
                 }
-            }
-        }
-
-        private void boxMail_Leave(object sender, EventArgs e)
-        {
-            if(boxMail.Text=="Adresse mail")
-            {
-                textMail.ForeColor = Color.DimGray;
             }
         }
     }

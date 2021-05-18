@@ -4,3 +4,9 @@ C:\Users\WIN10\Desktop\projet-gedimat-2\Model_Data2ODOO\obj\Debug\Model_Data2ODO
 C:\Users\WIN10\Desktop\projet-gedimat-2\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.dll
 C:\Users\WIN10\Desktop\projet-gedimat-2\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.pdb
 C:\Users\WIN10\Desktop\projet-gedimat-2\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.csprojAssemblyReference.cache
+C:\Users\levasseur\Desktop\SP2\projet-gedimat-2\Model_Data2ODOO\bin\Debug\Model_Data2ODOO.dll
+C:\Users\levasseur\Desktop\SP2\projet-gedimat-2\Model_Data2ODOO\bin\Debug\Model_Data2ODOO.pdb
+C:\Users\levasseur\Desktop\SP2\projet-gedimat-2\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.csprojAssemblyReference.cache
+C:\Users\levasseur\Desktop\SP2\projet-gedimat-2\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.csproj.CoreCompileInputs.cache
+C:\Users\levasseur\Desktop\SP2\projet-gedimat-2\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.dll
+C:\Users\levasseur\Desktop\SP2\projet-gedimat-2\Model_Data2ODOO\obj\Debug\Model_Data2ODOO.pdb

@@ -50,14 +50,10 @@
             this.erreur_txt_serveur = new System.Windows.Forms.TextBox();
             this.erreur_txt_nomDD = new System.Windows.Forms.TextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.boxMail = new System.Windows.Forms.TextBox();
-            this.textMail = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.img_logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_parcourir
@@ -96,7 +92,7 @@
             this.btn_transferer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_transferer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_transferer.ForeColor = System.Drawing.Color.LightGray;
-            this.btn_transferer.Location = new System.Drawing.Point(146, 678);
+            this.btn_transferer.Location = new System.Drawing.Point(127, 551);
             this.btn_transferer.Name = "btn_transferer";
             this.btn_transferer.Size = new System.Drawing.Size(125, 39);
             this.btn_transferer.TabIndex = 7;
@@ -150,7 +146,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(0, 678);
+            this.label1.Location = new System.Drawing.Point(0, 551);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 13);
             this.label1.TabIndex = 19;
@@ -262,52 +258,12 @@
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::GUI_Data2ODOO.Properties.Resources.navBarC2;
-            this.pictureBox1.Location = new System.Drawing.Point(28, 551);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(373, 97);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
-            // 
-            // boxMail
-            // 
-            this.boxMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.boxMail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.boxMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boxMail.ForeColor = System.Drawing.Color.DimGray;
-            this.boxMail.Location = new System.Drawing.Point(41, 590);
-            this.boxMail.Name = "boxMail";
-            this.boxMail.Size = new System.Drawing.Size(339, 19);
-            this.boxMail.TabIndex = 28;
-            this.boxMail.Text = "Adresse mail";
-            this.boxMail.Leave += new System.EventHandler(this.boxMail_Leave);
-            // 
-            // textMail
-            // 
-            this.textMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.textMail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textMail.ForeColor = System.Drawing.Color.Red;
-            this.textMail.Location = new System.Drawing.Point(41, 632);
-            this.textMail.Name = "textMail";
-            this.textMail.ReadOnly = true;
-            this.textMail.Size = new System.Drawing.Size(230, 16);
-            this.textMail.TabIndex = 29;
-            this.textMail.Text = "Veuillez remplir ce champ";
-            this.textMail.Visible = false;
-            // 
             // FrmData2ODOO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ClientSize = new System.Drawing.Size(509, 729);
-            this.Controls.Add(this.textMail);
-            this.Controls.Add(this.boxMail);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(440, 623);
             this.Controls.Add(this.erreur_txt_nomDD);
             this.Controls.Add(this.erreur_txt_serveur);
             this.Controls.Add(this.label2);
@@ -333,7 +289,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -356,9 +311,6 @@
         private System.Windows.Forms.TextBox erreur_txt_serveur;
         private System.Windows.Forms.TextBox erreur_txt_nomDD;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox boxMail;
-        private System.Windows.Forms.TextBox textMail;
     }
 }
 
